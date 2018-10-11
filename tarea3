@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float km,precio;
+    int tiempo;
+    cout<<"Ingresa la distancia de ida en kilometros: "<<endl;
+    cin>>km;
+    cout<<"Ingresa el tiempo que estara: "<<endl;
+    cin>>tiempo;
+    if(tiempo>7 && kilometros > 400)
+    {
+        precio=km*2*.17;
+        precio=precio-precio*.30;
+    }
+    else
+    {
+        precio=km*2*.17;
+    }
+    cout<<"El boleto costara: $"<<precio;
+
+    return 0;
+}
