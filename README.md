@@ -1,2 +1,2 @@
-# TAREAS
+# TAREA
 Primer_parcial
