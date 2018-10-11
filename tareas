@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+ {
+	 int numero, n1,n2,n3,n4,n5;
+	 cout<<"Escribe un numero entero con 5 digitos: ";
+	 cin>>numero;
+ 
+	if ((numero >= 10000)&&(numero<=99999))
+    {
+		
+	    n1= numero / 10000;
+		n2= (numero % 10000) / 1000;
+		n3=(numero % 10000) % 1000 / 100;
+		n4=((numero % 10000) % 1000) % 100 / 10;
+		n5=(((numero % 10000) % 1000) % 100) % 10;
+	    cout<<n1<<" , "<<n2<<", "<<n3<<", "<<n4<<", "<<n5;	
+    }
+	 return 0;
+	}
