@@ -1,0 +1,16 @@
+using namespace std;
+int main()
+{
+    int num,pot,res=1;
+    cout<<"Ingresa un numero"<<\t;
+    cin>>num;
+    cout<<"ingresa una potencia"<<\t;
+    cin>>pot;
+    while(pot>=1)
+    {
+        res*=num;
+        pot --;
+    }
+    cout<<"El resultado  es: "<<res;
+    return 0;
+}
