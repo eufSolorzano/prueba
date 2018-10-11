@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c=0;
+    cout<<"ingresa el numero de habitantes en A: "<<endl;
+    cin>>a;
+    cout<<"ingresa el numero de habitantes en B: "<<endl;
+    cin>>b;
+    while(a<b)
+    {
+        a+=a*.6;
+        b+=b*.3;
+        c++;
+    }
+    cout<<"Habitantes en A: "<<a<<endl;
+    cout<<"Habitantes en B: "<<b<<endl;
+    cout<<"Anos transcurridos: "<<c<<endl;
+    return 0;
+}
