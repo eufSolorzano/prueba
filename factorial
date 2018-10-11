@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int factorial=1,x=1,n;
+    cout<<"Ingresa el numero: "<<endl;
+    cin>>n;
+    while(n >1)
+    {
+        factorial*=num;
+        num--;
+        x++;
+    }
+    cout<<"El factorial de "<<x<<"! es : "<<factorial;
+    return 0;
+}
